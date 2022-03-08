@@ -29,5 +29,4 @@ public class ChatroomUser extends BaseTimeEntity {
     @OneToMany(mappedBy = "chatroomUser")
     private List<Store> store = new ArrayList<>();
 
-
 }

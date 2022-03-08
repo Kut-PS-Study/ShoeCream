@@ -1,7 +1,7 @@
 package com.shoecream.store.errors;
 
 
-import com.sidepr.chat.utils.ApiUtils;
+import com.shoecream.store.utils.ApiUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.hibernate.exception.ConstraintViolationException;
 import org.springframework.http.HttpHeaders;
@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.servlet.NoHandlerFoundException;
 
-import static com.sidepr.chat.utils.ApiUtils.error;
+import static com.shoecream.store.utils.ApiUtils.error;
 
 @ControllerAdvice
 @Slf4j

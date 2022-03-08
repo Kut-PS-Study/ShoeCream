@@ -1,6 +1,6 @@
 package com.shoecream.store.user.entity;
 
-import com.sidepr.chat.global.BaseTimeEntity;
+import com.shoecream.store.global.BaseTimeEntity;
 import lombok.Getter;
 
 import javax.persistence.*;
